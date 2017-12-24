@@ -17,7 +17,7 @@
 	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="../../excanvas.min.js"></script><![endif]-->
 	<script language="javascript" type="text/javascript" src="jquery-1.12.4.min.js"></script>
 	<script language="javascript" type="text/javascript" src="jquery.flot.js"></script>
-	<script language="javascript" type="text/javascript" src="jquery.flot.time.jalali.js"></script>
+	<script language="javascript" type="text/javascript" src="jquery.flot.time.jalali.min.js"></script>
 	<script type="text/javascript">
 	$(function() {
 
@@ -137,8 +137,8 @@
 					mode: "time",
 					jalali: true,
 					minTickSize: [1, "day"],
-					min: (new JDate(1378, 11, 25)).getTime(),
-					max: (new JDate(1379, 0, 1)).getTime(),
+					min: (new JDate(1378, 9, 4)).getTime(),
+					max: (new JDate(1378, 9, 11)).getTime(),
 					timeformat: "%a"
 				}
 			});
@@ -160,8 +160,8 @@
 					mode: "time",
 					jalali: true,
 					minTickSize: [1, "hour"],
-					min: (new JDate(1378, 11, 31)).getTime(),
-					max: (new JDate(1379, 0, 1)).getTime(),
+					min: (new JDate(1378, 10, 10)).getTime(),
+					max: (new JDate(1378, 10, 11)).getTime(),
 					twelveHourClock: true
 				}
 			});
