@@ -7,5 +7,9 @@ https://github.com/tahajahangir/jdate
 tnx :
 https://github.com/dnschnur
 
-open index-jalali.html to view example
+example:
+http://smah2.ir/flot
+
+
 C:
+
